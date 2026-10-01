@@ -359,3 +359,10 @@ Active development — changelog tracked in `CHANGELOG.md`. 18 micro-commits on 
 === ARCHIVE NOTE ===
 
 > Noted for archive: this repo is intended for public viewing / archival. Security practices applied (placeholders, .gitignore, SECURITY.md, scan complete). Real keys must be rotated before any production use.
+
+---
+## Disclaimer / Research Use Only (Aarav)
+
+This repository is for research and archival purposes only. It is not an endorsement of automating Discord user accounts, using self-bots, or breaking Discord's Terms of Service. Do not use this in ways that violate Discord ToS or harm others. The developer (Aarav) does not condone using self-bots for unauthorized automation, spam, or any bad-faith activity.
+
+Credit: this project uses `discord.py-self` (v2.0.x), a public fork by Dolfies (https://github.com/dolfies/discord.py-self) based on Rapptz's original `discord.py`. The library itself states: automating user accounts is against Discord ToS; this library is a proof of concept and is not recommended for use. Credit to Rapptz for the original library and to Dolfies for the self-bot fork.
