@@ -347,3 +347,12 @@ refreshes several times a second while normal logs scroll above it.
 
 See [TESTING.md](TESTING.md) for a full solo test checklist and instructions
 for getting friends to try it out and report feedback.
+
+---
+## Security
+- No hardcoded secrets in source (all API keys via `.env`, excluded by `.gitignore`).
+- Secret scanning performed; `.env` replaces real tokens with `<PLACEHOLDER>` (rotate before production).
+- Report security issues via repo issues (not in chat/logs).
+
+## Status
+Active development — changelog tracked in `CHANGELOG.md`. 18 micro-commits on main.
