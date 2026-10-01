@@ -356,3 +356,6 @@ for getting friends to try it out and report feedback.
 
 ## Status
 Active development — changelog tracked in `CHANGELOG.md`. 18 micro-commits on main.
+=== ARCHIVE NOTE ===
+
+> Noted for archive: this repo is intended for public viewing / archival. Security practices applied (placeholders, .gitignore, SECURITY.md, scan complete). Real keys must be rotated before any production use.
