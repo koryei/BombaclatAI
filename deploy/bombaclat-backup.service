@@ -1,0 +1,17 @@
+[Unit]
+Description=Backup Bombaclat SQLite database
+After=local-fs.target
+
+[Service]
+Type=oneshot
+User=bombaclat
+Group=bombaclat
+WorkingDirectory=/opt/bombaclat
+EnvironmentFile=/etc/bombaclat/bombaclat.env
+ExecStart=/opt/bombaclat/.venv/bin/python /opt/bombaclat/tools/backup_database.py --database /opt/bombaclat/data/bombaclat.db --output-dir /var/lib/bombaclat/backups --keep 14
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=true
+ReadWritePaths=/var/lib/bombaclat/backups
