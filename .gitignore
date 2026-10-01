@@ -1,0 +1,11 @@
+.env
+.venv/
+*.pyc
+__pycache__/
+data/bot.log*
+data/search_comparison/
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/captcha-blocked.json
+.DS_Store
